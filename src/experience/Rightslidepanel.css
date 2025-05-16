@@ -1,0 +1,38 @@
+/* RightSlidePanel.css */
+.right-panel {
+  position: fixed;
+  top: 0;
+  left: 0; /* Panel starts from the left side */
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%); /* Initially hidden */
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.right-panel.open {
+  transform: translateX(0); /* Slide in when opened */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #f00; /* Change the color on hover for better visibility */
+}
+
+.close-btn:focus {
+  outline: 2px solid #f00; /* Make button focusable for accessibility */
+}

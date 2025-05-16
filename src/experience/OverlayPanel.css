@@ -1,0 +1,31 @@
+/* Initial panel state (off-screen to the right) */
+.panel {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Initially off-screen to the right */
+  width: 300px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: right 0.5s ease; /* Smooth sliding effect */
+  z-index: 10;
+}
+
+/* When the panel is active, it slides in from the right to center */
+.panel.active {
+  right: 0; /* Moves to center */
+}
+
+/* Panel content styling */
+.panel-content {
+  padding: 20px;
+}
+
+.panel h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.panel p {
+  font-size: 16px;
+}
