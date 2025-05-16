@@ -70,12 +70,12 @@ Feel free to explore the links below to see more of my work and get in touch:
 • <a href="mailto:Vijaysharu15@gmail.com" style="color:#4ea1d3;">Email Me</a>`,
     position: [-54.3, 5.5, -50.46],
   },
-  'Sport Room': {
+  'Sport Room - certificate': {
     title: 'certificate',
     description: '.',
     position: [-49, 4, -1.9],
   },
-  'Sport Room': {
+  'Sport Room - hobby': {
     title: 'Hobby',
     description: `I enjoy staying active and exploring a variety of hobbies. I love playing table tennis, football, and going to the gym, which keep me physically fit and energetic. In my free time, I also enjoy playing video games, drawing, playing the keyboard, and watching anime to relax and express my creativity. I like spending quality time with my younger brother, cleaning my fish tank, and even trying out new recipes in the kitchen. I believe there is a lot of hidden talent within me, and I am continuously exploring new activities to discover and develop my skills.`,
     position: [-65, 4, 3.2],
